@@ -5,6 +5,8 @@ const FollowMouse = () => {
   const [enabled, setEnabled] = useState(false)
   const [position, setPosition] = useState({x:0,y:0})
 
+
+  // pointer move
   useEffect(()=>{
     console.log('enabled:', enabled)
     const handleMove = (event) => {
@@ -23,6 +25,14 @@ const FollowMouse = () => {
       console.log('Limpiado')
     }
   
+  },[enabled])
+
+  // Change body className
+  useEffect(()=>{
+    document.body.classList.toggle('no-cursor', enabled)
+
+    return (() => { document.body.classList.remove('no-cursor') })
+    
   },[enabled])
 
   const handClick = () => {
