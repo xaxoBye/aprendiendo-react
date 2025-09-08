@@ -1,0 +1,16 @@
+body{
+    font-family: system-ui;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main img {
+    max-width: 600px;
+    height: auto;
+}
