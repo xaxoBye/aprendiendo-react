@@ -4,7 +4,7 @@ import { searchMovies } from '../services/movies'
 
 export function useMovies({ search, sort  }) {
   const [movies, setMovies] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false) 
   const [error, setError] = useState(null)
   const previousSearch = useRef(search)
 
