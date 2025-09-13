@@ -17,7 +17,7 @@ export const searchMovies = async ({ search }) => {
         }))
 
     }catch(e){
-        throw new Error('Error searching movies')
+        throw new Error('Error searching movies' + e)
     }
  
 }
