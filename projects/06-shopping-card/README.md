@@ -11,7 +11,7 @@
 
 Haz uso e usseContext para evita pasar props innecesarias
 
-2.- Shopping Cart
+2.- Shopping Cart / carrito
 
 - Haz que se puedan añadir los productos a un carrito.
 - Haz que se puedan eliminiar los productos del carrito.
