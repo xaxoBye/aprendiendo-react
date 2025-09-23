@@ -1,5 +1,7 @@
 # cursoreact.com
 
+# https://cursoreact.dev/06-use-reducer-use-context
+
 # Enunciado
 
 1.- Ecommerce
@@ -13,11 +15,11 @@ Haz uso e usseContext para evita pasar props innecesarias
 
 2.- Shopping Cart / carrito
 
-- Haz que se puedan añadir los productos a un carrito.
-- Haz que se puedan eliminiar los productos del carrito.
-- Haz que puedan modificar la cantidad de productos del carrito
-- Sincroniza los cambios del carrito con la lista de productos.
-- Guarda en un localStorage el carrito para que se recupere al recargar la pagina.
+✅- Haz que se puedan añadir los productos a un carrito.
+✅- Haz que se puedan eliminiar los productos del carrito.
+✅- Haz que puedan modificar la cantidad de productos del carrito
+✅- Sincroniza los cambios del carrito con la lista de productos.
+✅- Guarda en un localStorage el carrito para que se recupere al recargar la pagina.
 
 # React + Vite
 

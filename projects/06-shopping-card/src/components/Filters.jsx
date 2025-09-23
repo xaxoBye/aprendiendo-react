@@ -16,6 +16,7 @@ export function Filters () {
     }
 
     const handleChangeCategory = (event) => {
+        console.log('entro por aquí 👍')
         setFilters(prevState => ({
             ...prevState,
             category: event.target.value
